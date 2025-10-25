@@ -26,7 +26,18 @@ This GitHub repo includes:
 - Campaign audit checklists  
 - Case studies with before/after performance  
 
-These are real examples from my client projects - clean, practical, and easy to use.
+These are real examples from my client projects
+
+📄 My Portfolio Files
+
+Here are my Google Ads & Local Business campaign case studies 👇  
+
+- [E-commerce & Local Business Portfolio](./E-commerce%20&%20Local%20Business%20Portfolio.pdf)
+- [E-commerce & Local Business Portfolio 1](./E-commerce%20&%20Local%20Business%20Portfolio1.pdf)
+- [E-commerce & Local Business Portfolio 3](./E-commerce%20&%20Local%20Business%20Portfolio3.pdf)
+- [Local Business Portfolio](./Local%20Business%20Portfolio.pdf)
+- [Portfolio for Ecommerce and Local service](./Portfolio%20for%20Ecommerce%20and%20Local%20service.pdf)
+
 
 🤝 Work With Me
 If you need help setting up tracking or running high-performing ad campaigns, let’s connect!
