@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Google Ads & Web Analytics Portfolio</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #1f2937;
+    }
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 16px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h1 {
+      color: #0b74da;
+      font-size: 28px;
+      margin-bottom: 4px;
+    }
+    h2 {
+      font-size: 18px;
+      color: #4b5563;
+      margin-top: 0;
+    }
+    .section {
+      margin-bottom: 32px;
+    }
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+    @media (min-width: 640px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    .card {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 16px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #111827;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 14px;
+      background: #0b74da;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+    .btn:hover {
+      background: #0958a2;
+    }
+    footer {
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Google Ads & Web Analytics Portfolio</h1>
+      <h2>Helping businesses grow through data-driven ad campaigns</h2>
+    </header>
+
+    <section class="section">
+      <h2>💼 What I Do</h2>
+      <ul>
+        <li>Manage Google Ads campaigns (Search, Display, YouTube, PMAX)</li>
+        <li>Set up & fix GA4 and Google Tag Manager tracking</li>
+        <li>Build dashboards in Looker Studio</li>
+        <li>Optimize ad performance to improve ROI</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>📊 Key Results</h2>
+      <ul>
+        <li>Increased ROAS from 2× to 4× for eCommerce brand</li>
+        <li>Reduced Cost Per Lead by 30% for service business</li>
+        <li>Improved YouTube ad view rate by 50%</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>📂 Portfolio Files</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>E-commerce & Local Business Portfolio</h3>
+          <a class="btn" href="./E-commerce%20&%20Local%20Business%20Portfolio.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="card">
+          <h3>E-commerce & Local Business Portfolio 1</h3>
+          <a class="btn" href="./E-commerce%20&%20Local%20Business%20Portfolio1.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="card">
+          <h3>E-commerce & Local Business Portfolio 3</h3>
+          <a class="btn" href="./E-commerce%20&%20Local%20Business%20Portfolio3.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="card">
+          <h3>Local Business Portfolio</h3>
+          <a class="btn" href="./Local%20Business%20Portfolio.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="card">
+          <h3>Portfolio for Ecommerce and Local Service</h3>
+          <a class="btn" href="./Portfolio%20for%20Ecommerce%20and%20Local%20service.pdf" target="_blank">View PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>🤝 Let's Connect</h2>
+      <p>You can find me and contact me safely on <a href="https://www.upwork.com" target="_blank">Upwork</a>.</p>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Google Ads Portfolio. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
